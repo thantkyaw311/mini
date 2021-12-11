@@ -1,0 +1,168 @@
+
+
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*  form 1024to 1200 */
+@media only screen and (max-width:1200px) {
+  .row{
+      padding: 0 2%;
+  }
+  .hero {
+      width: 100%;
+     padding: 0 2%;
+    }
+    .long-para {
+  
+      width: 80%;
+      margin-left: 10%;
+    }
+}
+
+
+/* small Tablet and big Tablet form 768 to 1023*/
+@media only screen and (max-width:1023px) {
+  html {
+     
+      font-size: 18px;
+  }
+  section {
+      padding: 60px 0;
+    }
+    /* .long-para {
+  
+      width: 80%;
+      margin-left: 10%;
+    } */
+    .step-box:first-child {
+      margin-top: 10px;
+  
+    
+
+    }
+    .step-box:last-child {
+      margin-top: 10px;
+      
+    }
+    .works-step {
+      margin-bottom: 40px;
+    }
+    .works-step:last-of-type {
+      margin-bottom: 60px;
+    }
+    .app-screen {
+      width: 50%
+  }
+  .icon-small{
+      width: 20px;
+      margin-right: 5px;
+  }
+  .city-feature{
+      font-size: 90%;
+  }
+  .plan-box {
+     
+      width: 100%;
+      margin-left: 0;
+  
+    }
+    .plan-price {
+      font-size: 250%;
+      
+    }
+    .content-form {
+      width: 80%;
+      
+    }
+}
+
+
+
+/* small phone and Tablet form 0 to 767 */
+@media only screen and (max-width:767px) {
+  
+  body{
+      font-size: 16px;
+  }
+  section{
+      padding: 30px;
+
+  }
+  .row,
+  .hero {
+     
+     padding: 0 4%;
+    }
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav{
+        display: none;
+        
+    }
+    .long-para{
+        width:100% ;
+        margin-left:0 ;
+    }
+    h1{
+        font-size: 180%;
+    }
+    h2{
+        font-size: 150%;
+    }
+    .works-step div {
+      
+     
+      width: 35px;
+      height: 35px;
+    
+    
+      padding: 5px;
+      font-size: 150%;
+  
+      margin-right: 25px;
+    }
+    .works-step{
+      margin-bottom: 20px;
+      }
+      .works-step:last-of-type{
+        margin-bottom: 20px;
+      }
+      .step-box:first-child {
+      
+        text-align: center;
+      
+        
+      }
+      .app-screen{
+        width: 40%;
+      }
+      
+      .social-link {
+        list-style: none;
+        float: left;
+      }
+   
+}
+
+
+/* small phone form 0 to 480 */
+@media only screen and (max-width:480px) {
+section{
+  padding: 25px 0;
+}
+.content-form{
+  width: 100%;
+}
+.social-link li {
+  list-style: non;
+  float: left;
+}
+  
+}
